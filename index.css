@@ -44,13 +44,9 @@ header nav {
     box-sizing: border-box;
 }
 
-/* .logo-img {
-    height: 90px;
-} */
 
 nav ul {
     list-style-type: none;
-    /* padding: unset; */
 
 }
 
@@ -109,14 +105,12 @@ ul.dropdown li a:hover{
     transition: 1s ease-out;
     background-color: #05aab9;
 }
-.menu-toggle {
+.fa-solid, .fas {
+    font-weight: 900;
+    font-size: 2rem;
     display: none;
-    background: none;
-    border: none;
-    color: #fff;
-    font-size: 1.5rem;
-    cursor: pointer;
 }
+
 /* --------------------------------------------------home page-------------------------------------------------     */
 .hero-section {
     width: 100%;
@@ -129,9 +123,7 @@ ul.dropdown li a:hover{
     font-family: "Nunito", sans-serif;
    
 }
-.btn .fa-solid fa-bars{
-    display: none;
-}
+
 
 .left-box img{
     height: 50%;
@@ -676,19 +668,20 @@ section.images {
     border-radius: 50%;
 }
 .Student h2 {
-    font-size: 1.5em;
-    margin: 10px 0;
-    color: #06BBCC;
-}
-
-.Student h4 {
-    font-size: 1.2em;
-    margin: 5px 0;
+    font-size: 1.6em;
+    font-weight: 600;
+    /* margin: 10px 0; */
     color: black;
 }
 
+.Student h4 {
+    font-size: 1.3em;
+    margin: 5px 0;
+    color: #6e6868;
+}
+
 .com {
-    font-size: 1em;
+    font-size: 1.1em;
     color: #555;
     line-height: 1.5;
 }
