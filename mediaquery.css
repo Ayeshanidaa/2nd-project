@@ -1,0 +1,79 @@
+@media only screen and (max-width: 1200px) {
+    /* Styles for screens up to 1200px wide */
+    .hero-box {
+        padding: 200px 80px;
+    }
+    .feature {
+        padding: 0 50px;
+    }
+    .section .box {
+        padding: 40px 50px;
+    }
+}
+
+@media only screen and (max-width: 992px) {
+    /* Styles for screens up to 992px wide */
+    .hero-box {
+        padding: 150px 60px;
+    }
+    .feature {
+        padding: 0 30px;
+    }
+    .section .box {
+        padding: 40px 30px;
+    }
+    .left-box-2 img {
+        height: 375px;
+    }
+    nav button{
+        display: none;
+    }
+    .flex1{
+        width: 35%;
+    }
+}
+
+@media only screen and (max-width: 768px) {
+    /* Styles for screens up to 768px wide */
+    nav ul{
+        display: none;
+    }
+    .hero-box {
+        padding: 100px 40px;
+    }
+    .feature {
+        padding: 0 20px;
+    }
+    .section .box {
+        flex-direction: column;
+        align-items: center;
+        padding: 40px 20px;
+    }
+    .left-box-2 img {
+        height: 300px;
+    }
+    .flex1{
+        width: 40%;
+    }
+}
+
+@media only screen and (max-width: 576px) {
+    /* Styles for screens up to 576px wide */
+    .hero-box {
+        padding: 80px 20px;
+    }
+    .feature {
+        gap: 1rem;
+        padding: 0 10px;
+    }
+    .section .box {
+        padding: 40px 10px;
+    }
+    .left-box-2 img {
+        height: 225px;
+    }
+    .flex1{
+        width: 48%;
+    }
+
+}
