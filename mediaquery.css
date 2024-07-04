@@ -56,6 +56,33 @@
         width: 40%;
     }
 }
+@media (max-width: 768px) {
+    nav ul {
+        flex-direction: column;
+        display: none;
+        width: 100%;
+        text-align: center;
+    }
+
+    nav ul li {
+        margin: 10px 0;
+    }
+
+    .menu-icon {
+        display: block;
+        margin-right: 32px;
+        color: #06BBCC;
+    }
+
+    #menu-toggle:checked + .menu-icon + ul {
+        display: flex;
+        background: aliceblue;
+    }
+
+    header nav {
+        justify-content: space-between;
+    }
+}
 
 @media only screen and (max-width: 576px) {
     /* Styles for screens up to 576px wide */
@@ -106,6 +133,9 @@
     } */
     .flex1{
         width: 40%;
+    }
+    .left-img1 .ig{
+        display: none;
     }
 
 }
