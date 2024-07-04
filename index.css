@@ -29,7 +29,8 @@ header nav {
     align-items: center;
     justify-content: space-evenly;
     /* padding: 0 100px; */
-    height: 7rem;
+    height: 6rem;
+    z-index: 99;
 }
 
 .logo {
@@ -114,7 +115,8 @@ ul.dropdown li a:hover{
     background-size: cover;
     background-blend-mode: darken;
     background-repeat: no-repeat;
-    height: 70%;
+    /* margin: auto; */
+    /* height: 70%; */
     color: white;
     font-family: "Nunito", sans-serif;
    
@@ -126,7 +128,9 @@ ul.dropdown li a:hover{
 
 .hero-box {
     display: flex;
-    padding: 275px 100px;
+    justify-content: center;
+    /* align-items: center; */
+    padding:  100px;
 }
 
 .left-box {
@@ -194,7 +198,7 @@ button:hover{
     flex-wrap: wrap;
     justify-content: space-between;
     margin: 50px 0;
-    height: 50vh;
+    /* height: 50vh; */
     padding: 0 100px;
     display: flex;
     align-items: center;
@@ -293,6 +297,7 @@ button:hover{
     box-sizing: border-box;
     font-size: 20px;
     animation: fadeIn 1s ease-in-out;
+
 }
 @keyframes fadeIn {
     from {
