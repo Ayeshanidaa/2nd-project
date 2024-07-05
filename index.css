@@ -20,6 +20,7 @@ header {
     background-color: white;
     position: fixed;
     box-shadow: 0 6px 6px rgba(0, 0, 0, 0.2);
+    z-index: 2;
 
 }
 
@@ -72,7 +73,7 @@ ul.dropdown li {
     display: block;
     cursor: pointer;
     color: black;
-    font-size: 15px;
+    font-size: 20px;
 }
 
 ul.dropdown {
@@ -357,7 +358,8 @@ p.right-para2 {
 
 .points {
     display: flex;
-    gap: 10rem;
+    flex-wrap: wrap;
+    gap: 4rem;
     padding: 14px 14px;
     font-size: 18px;
 }
@@ -599,12 +601,14 @@ section.images {
     align-items: center;
     transition: transform 0.3s ease, box-shadow 0.3s ease;
     background-color: #cbf2f77d;
+
 }
 
 .flex:hover {
     transform: translateY(-10px);
     box-shadow: 0 10px 20px rgba(0, 0, 0, 0.2);
-    z-index: 1;
+    z-index: -1;
+
 }
 
 .instr-1 img {
@@ -636,6 +640,7 @@ section.images {
 
 .name h6 {
     font-size: 16px;
+    margin-bottom: 10px;
     color: grey;
 }
 
