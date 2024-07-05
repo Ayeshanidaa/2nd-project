@@ -710,7 +710,7 @@ section.images {
 
 .footer h4 {
     margin-bottom: 20px;
-    font-size: 20px;
+    font-size: 35px;
     font-weight: 600;
     /* position: relative; */
 }
@@ -732,7 +732,7 @@ section.images {
 .footer .row2,
 .footer .row3,
 .footer .row4 {
-    width: 23%;
+    width: 95%;
     min-width: 200px;
     font-size: large;
 

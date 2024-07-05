@@ -3,62 +3,75 @@
     .hero-box {
         padding: 200px 80px;
     }
+
     .feature {
         padding: 0 50px;
     }
+
     .section .box {
         padding: 40px 50px;
     }
 }
 
 
-    
+
 
 /* Styles for screens up to 992px wide */
 @media only screen and (max-width: 992px) {
     .hero-box {
         padding: 150px 60px;
     }
+
     .feature {
         padding: 0 30px;
     }
+
     .section .box {
         padding: 40px 30px;
     }
+
     .left-box-2 img {
         height: 375px;
     }
-    nav button{
+
+    nav button {
         display: none;
     }
-    .flex1{
+
+    .flex1 {
         width: 35%;
     }
 }
 
 /* Styles for screens up to 768px wide */
 @media only screen and (max-width: 768px) {
-    nav ul{
+    nav ul {
         display: none;
     }
+
     .hero-box {
         padding: 100px 40px;
     }
+
     .feature {
         padding: 0 20px;
     }
+
     .section .box {
         flex-direction: column;
         align-items: center;
         padding: 40px 20px;
     }
+
     .left-box-2 img {
         height: 300px;
     }
-    .flex1{
+
+    .flex1 {
         width: 40%;
     }
 }
+
 @media (max-width: 768px) {
     nav ul {
         flex-direction: column;
@@ -77,7 +90,7 @@
         color: #06BBCC;
     }
 
-    #menu-toggle:checked + .menu-icon + ul {
+    #menu-toggle:checked+.menu-icon+ul {
         display: flex;
         background: aliceblue;
     }
@@ -88,56 +101,86 @@
 }
 
 @media only screen and (max-width: 576px) {
+
     /* Styles for screens up to 576px wide */
     .hero-box {
         padding: 76px 4px;
     }
+
+    .left-box h2 {
+        font-size: 2rem;
+    }
+
+    .button {
+        height: 44px;
+        width: 120px;
+    }
+
     .feature {
         gap: 1rem;
         padding: 0 10px;
     }
+
     .section .box {
         padding: 40px 10px;
     }
+
+    .right-box h1 {
+        font-size: 22px;
+    }
+    .course h1{
+        font-size: 2em;
+    }
+
     .left-box-2 img {
         height: 225px;
     }
-    .flex1{
+
+    .flex1 {
         width: 48%;
     }
 
 }
+
 /* Styles for screens up to 350px wide */
 @media only screen and (max-width: 350px) {
     .hero-box {
         padding: 76px 4px;
     }
-    .left-box h2{
+
+    .left-box h2 {
         font-size: 35px;
     }
+
     .feature {
         gap: 1rem;
         padding: 0 7px;
     }
+
     .section .box {
         padding: 34px 7px;
     }
-    .right-box{
+
+    .right-box {
         font-size: 18px;
     }
-    p.right-para{
+
+    p.right-para {
         font-size: 17px;
     }
-    .left-img2  {
+
+    .left-img2 {
         display: none;
     }
+
     /* .left-img1 img {
         width: 95%;
     } */
-    .flex1{
+    .flex1 {
         width: 40%;
     }
-    .left-img1 .ig{
+
+    .left-img1 .ig {
         display: none;
     }
 
